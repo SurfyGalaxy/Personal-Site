@@ -1,0 +1,41 @@
+body {
+    background-color: #1e1e2e;
+    color: #cdd6f4;
+    text-align: center;
+}
+.project {
+    background-color: #585b70;
+    padding: 20px;
+    margin: 10px;
+}
+a {
+    color: #89b4fa;
+}
+.project_back {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px; 
+    width: 80%;
+    max-width: 1200px;
+    margin-inline: auto;
+    justify-content: center;
+}
+nav {
+    background-color: #181825;
+    width: 40%;
+    color: #a6adc8;
+    margin: 20px;
+    padding: 10px;
+    margin-inline: auto;
+}
+.button {
+    background-color: #45475a;
+    color: #a6adc8;
+    padding: 10px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+.button:hover {
+    background-color: #585b70;
+    color: #bac2de;
+}
