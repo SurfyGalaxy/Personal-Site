@@ -32,10 +32,11 @@ nav {
     background-color: #45475a;
     color: #a6adc8;
     padding: 10px;
+    margin: 20px; /*idk why but this does nothing*/
     border-radius: 20px;
     text-decoration: none;
 }
 .button:hover {
-    background-color: #585b70;
+    background-color: #585b70; 
     color: #bac2de;
 }
